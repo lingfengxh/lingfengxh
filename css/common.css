@@ -1,0 +1,120 @@
+    footer{
+        width: 1500px;
+        height: 485px;
+        margin-left: 200px;
+        background-color: #f5f5f5;
+    }
+    footer .quality,
+    footer .buy,
+    footer .about{
+        display: block;
+        width: 1500px;
+        height: 135px;
+        border-bottom: 1px solid #666;
+    }
+    footer .quality .sale{
+        display: inline-block;
+        width: 297px;
+        height: 135px;
+    }
+    footer .quality .sale img{
+        float: left;
+        width: 70px;
+        height: 70px;
+        margin-left: 40px;
+        margin-top: 35px;
+    }
+    footer .quality .sale i,
+    footer .quality .sale em{
+        float: left;
+        width: 150px;
+        height: 23px;
+        margin-top: 45px;
+        line-height: 28px;
+        font-weight: 900;
+        font-size: 16px;
+        color: #666;
+    }
+    footer .quality .sale em{
+        height: 22px;
+        line-height: 28px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+
+    footer .buy{
+        height: 235px;
+        border-bottom: 1px solid #ccc;
+    }
+    footer .buy .label,
+    footer .buy .label111{
+        float: left;
+        width: 250px;
+        height: 235px;
+        padding-top: 30px;
+        padding-left: 60px;
+    }
+    footer .buy .label111{
+        padding-top: 0;
+        padding-left: 0;
+    }
+    footer .buy .label .label1{
+        font-size: 15px;
+        color: #666;
+    }
+    footer .buy .label .label11{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    footer .buy .label111 i{
+        display: block;
+        width: 100px;
+        height: 30px;
+        margin-top: 30px;
+        margin-left: 68px;
+        font-size: 20px;
+        color: #66667d;
+    }
+    footer .buy .label111 img{
+        width: 110px;
+        width: 110px;
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+
+
+    footer .about{
+        height: 115px;
+        border: 0;
+    }
+    footer .about .us{
+        width: 1450px;
+        height: 25px;
+        padding-left: 96px;
+        padding-top: 20px;
+    }
+    footer .about .us .link{
+        display: inline-block;
+        height: 25px;
+    }
+    footer .about .us .link em{
+        display: inline-block;
+        font-size: 15px;
+        color: #666;
+    }
+    footer .about .us .link i{
+        display: inline-block;
+        width: 35px;
+        height: 25px;
+        text-align: center;
+    }
+    footer .about .address{
+        display: inline-block;
+        width: 910px;
+        height: 40px;
+        margin-left: 300px;
+        margin-top: 40px;
+        text-align: center;
+        font-size: 15px;
+    }

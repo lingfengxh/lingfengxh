@@ -1,0 +1,319 @@
+    header{
+        position: relative;
+        height: 40px;
+        background-color: #f1f1f1;
+    }
+    header .welcome{
+        position: absolute;
+        left: 200px;
+        font-size: 15px;
+        line-height: 40px;
+        color: #66667c;
+    }
+
+    header .sign,header .register{
+        position: absolute;
+        margin-left: 310px;
+        font-size: 15px;
+        line-height: 40px;
+        color: #c81623
+    }
+    header .register{
+        margin-left: 360px;
+    }
+
+    header .navigation{
+        display: inline-block;
+        width: 900px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: 920px;
+    }
+    header .navigation .label,
+    header .navigation .label1{
+        display: inline-block;
+        font-size: 15px;
+    }
+    header .navigation a{
+        color: #666;
+    }
+    header .navigation .line{
+        display: inline-block;
+        font-family: 'icomoon';
+        margin: 0 5px;
+    }
+    header .navigation .label .inside{
+        font-family: "icomoon";
+        margin-left: 10px;
+    }
+    header .navigation .label1{
+        font-family: "icomoon";
+        margin-left: 10px;
+    }
+    header .navigation .label .t:hover{
+        width: 135px;
+        height: 30px;
+        background-color: red;
+    }
+
+
+    nav{
+        position: relative;
+        height: 188px;
+    }
+    nav .shop{
+        position: absolute;
+        width: 220px;
+        height: 75px;
+        margin: 24px 0 0 190px;
+    }
+
+    nav .search{
+        display: inline-block;
+        width: 660px;
+        height: 45px;
+        margin: 30px 0 0 635px;
+        background-color: white;
+    }
+    nav .search .written{
+        float: left;
+        width: 560px;
+        height: 45px;
+        padding-left: 12px;
+        border: 2px solid #b1191a;
+        font-size: 16px;
+        line-height: 40px;
+        color: #000000;
+        outline: none;
+    }
+    nav .search .written::placeholder{
+        color: #757575;
+    }
+    nav .search .jump{
+        float: left;
+        width: 100px;
+        height: 45px;
+        border: 2px solid #b1191a;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        background-color: #b1191a;
+    }
+    nav .search a{
+        color: #ffffda;
+    }
+
+    nav .discount{
+        display: inline-block;
+        width: 640px;
+        height: 28px;
+        margin-left: 635px;
+    }
+    nav .discount .element,
+    nav .discount .element1
+    {
+        display: inline-block;
+        height: 28px;
+        margin: 4px 14px 0 14px;
+        font-size: 14.5px;
+    }
+    nav .discount a{
+        color: #666;
+    }
+    nav .discount .element1 a{
+        color: #c81623;
+    }
+
+    nav .cart{
+        position: absolute;
+        font-family: 'icomoon';
+        right: 300px;
+        top: 30px;
+        width: 175px;
+        height: 50px;
+        border: 1px solid #dfdfdf;
+        background-color: #f7f7f7;
+    }
+
+    nav .shopping{
+        height: 65px;
+        padding: 25px 0 0 240px;
+        border-bottom: 2px solid red;
+    }
+    nav .shopping .kind,
+    nav .shopping .kind1{
+        float: left;
+        height: 30px;
+        margin: 5px 23px;
+        font-size: 16px;
+    }
+    nav .shopping .kind1{
+        margin: 0 32px;
+    }
+    nav .shopping .kind a{
+        font-weight: 700;
+        font-family: 'icomoon';
+        color: #666;
+    }
+    nav .shopping .kind1 a{
+        font-size: 20px;
+        font-weight: 700;
+        color: #191104;
+    }
+
+    .box{
+        width: 1500px;
+        height: 1350px;
+        margin-left: 200px;
+    }
+    .box .iphone{
+        display: inline-block;
+        width: 360px;
+        height: 450px;
+        margin-right: 16px;
+    }
+    .box .iphone .picture{
+        float: left;
+        width: 280px;
+        height: 280px;
+        margin-left: 40px;
+    }
+    .box .iphone .apple{
+        float: left;
+        width: 340px;
+        height: 40px;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+    .box .iphone .yuan{
+        float: left;
+        width: 300px;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .box .iphone .yuan i{
+        display:inline-block;
+        width: 100px;
+        height: 40px;
+        font-size: 30px;
+        color: red;
+    }
+    .box .iphone .yuan em{
+        display: inline-block;
+        width: 70px;
+        height: 40px;
+        margin-left: 10px;
+        text-decoration: line-through;
+        font-size: 20px;
+        color: white;;
+    }
+    .box .iphone .sell{
+        float: left;
+        width: 350px;
+        height: 25px;
+        margin-left: 12px;
+    }
+    .box .iphone .sell i,
+    .box .iphone .sell em{
+        float: left;
+        width: 75px;
+        height: 20px;
+        font-size: 16px;
+        color: #666;
+    }
+    .box .iphone .sell em{
+        margin-left: 10px;
+    }
+    .box .iphone .sell strong{
+        float: left;
+        width: 170px;
+        height: 16px;
+        border: 1px solid red;
+        border-radius: 8px;
+        margin-top: 5px;
+    }
+    .box .iphone .sell strong del{
+        float: left;
+        width: 85%;
+        height: 16px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        background-color: red;
+    }
+    .box .iphone .click{
+        float: left;
+        width: 360px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 28px;
+        color: #fff;
+        background-color: red;
+    }
+
+        .t{
+            width: 910px;
+            height: 40px;
+            margin: 100px auto;
+        }
+        .change li{
+            float: left;
+            width: 40px;
+            height: 40px;
+            margin: 0 3px;
+            background-color: #f7f7f7;
+            border: 1px solid #dddddd;
+            line-height: 40px;
+            text-align: center;
+        }
+        .change .first{
+            background-color: white;
+            border: 0;
+        }
+        .change .second{
+                background-color: white;
+                border: 0;
+        }
+        .change .page1,.change .page2{
+            width: 85px;
+            height: 40px;
+        }
+        .change .page1{
+            background-color: white;
+        }
+        .change .page1 a{
+            color: #e3d6cc;
+        }
+        .change li a{
+            color: #333333;
+        }
+        .change .second a{
+            color:#d6cccc;;
+        }
+        .t .page{
+            display: inline-block;
+            margin: 10px 20px;
+        }
+        .t .t1{
+            width: 40px;
+            height: 40px;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            outline: none;
+        }
+        .t button{
+            width: 60px;
+            height: 40px;
+        }
+
+
+
+
+
+
+
+
+
+
+
